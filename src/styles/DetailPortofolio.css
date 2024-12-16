@@ -1,0 +1,21 @@
+#detail-portofolio > .wrapper {
+    width: 60%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  #detail-portofolio > .wrapper > img {
+    margin: 20px 0; 
+    width: 100%;
+    max-width: 800px; 
+    border-radius: 10px;
+  }
+  
+  #detail-portofolio > .wrapper > p.skill {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #222831;
+  }

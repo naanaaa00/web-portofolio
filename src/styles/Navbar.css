@@ -1,0 +1,33 @@
+.btn-download-cv {
+    background-color: #E9B384; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    cursor: pointer; 
+  }
+  
+  .btn-download-cv:hover {
+    background-color: #d3966e;
+  }  
+
+  .text-tittle{
+    color: #d3966e;
+  }
+
+  .text-tittle:hover {
+    background-color: #d3966e; 
+    color: #ffffff;
+  } 
+
+  
+  .text-tittle-logo{
+    color: #a56f4b;
+  }
+
+  .text-tittle-logo:hover {
+    background-color: #d3966e; 
+    color: #ffffff;
+  } 

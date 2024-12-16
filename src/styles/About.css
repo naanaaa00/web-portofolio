@@ -1,0 +1,64 @@
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% auto;
+  animation: gradient-x 5s ease infinite;
+}
+   .skills-slide-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .skills-slide {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    animation: slideIcons 15s linear infinite;
+  }
+
+  .skills-slide:hover {
+    animation-play-state: paused;
+  }
+
+  .skill-icon {
+    color: #74797e;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+
+  .skill-icon:hover {
+    color: #7C9D96;
+  }
+
+  @keyframes slideIcons {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Responsive */
+  @media (min-width: 768px) {
+    .skill-icon {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .skill-icon {
+      width: 90px;
+      height: 90px;
+    }
+  }
